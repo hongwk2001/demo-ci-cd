@@ -39,7 +39,7 @@ jobs:
       run : mvn test
 
     - name: Build and Deploy to Docker
-      uses: mr-smithers-excellent/docker-build@v5
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: hongwk/cicd-demo
         tags : latest
